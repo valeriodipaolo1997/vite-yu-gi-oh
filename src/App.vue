@@ -1,6 +1,7 @@
 <script>
 import axios from 'axios';
 import AppHeader from './components/AppHeader.vue'
+import AppMain from './components/AppMain.vue';
 export default {
   name: 'App',
   data() {
@@ -9,7 +10,8 @@ export default {
     }
   },
   components: {
-    AppHeader
+    AppHeader,
+    AppMain
   },
   created() {
     for (let i = 0; i < 20; i++) {
@@ -29,6 +31,7 @@ export default {
 
 <template>
   <AppHeader />
+  <AppMain />
 </template>
 
 <style scoped></style>
