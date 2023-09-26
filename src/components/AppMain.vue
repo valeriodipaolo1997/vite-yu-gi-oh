@@ -1,9 +1,11 @@
 <script>
 import AppSelect from './AppSelect.vue';
+import AppCardList from './AppCardList.vue';
 export default {
     name: 'AppMain',
     components: {
-        AppSelect
+        AppSelect,
+        AppCardList
     }
 }
 </script>
@@ -13,6 +15,7 @@ export default {
         <div class="container">
 
             <AppSelect />
+            <AppCardList/>
 
 
         </div>
