@@ -7,9 +7,7 @@ export default {
             state
         }
     },
-    created() {
-        state.fetchDataCard()
-    }
+    
 }
 </script>
 
