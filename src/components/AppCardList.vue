@@ -12,10 +12,10 @@ export default {
     <div class="card_list">
 
         <div class="found">
-            Found 39 cards
+            Found 20 cards
         </div>
 
-        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5">
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
             <AppCard />
         </div>
 
